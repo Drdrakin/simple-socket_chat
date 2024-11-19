@@ -1,0 +1,33 @@
+{
+  "name": "simple-socket_chat",
+  "version": "1.0.0",
+  "description": "Web chat Hibrido com mongodb e mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drdrakin/simple-socket_chat.git"
+  },
+  "keywords": [
+    "mongodb",
+    "chat",
+    "websocket"
+  ],
+  "author": "Guilherme Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drdrakin/simple-socket_chat/issues"
+  },
+  "homepage": "https://github.com/Drdrakin/simple-socket_chat#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
