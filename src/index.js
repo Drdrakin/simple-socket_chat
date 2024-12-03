@@ -11,7 +11,7 @@ const io = socketIO(server);
 
 function connectDB() {
 
-    let dbUrl = 'mongodb+srv://drdrakino:123%40Gui321@cluster0.qzneld1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+    let dbUrl = '';
 
     mongoose.connect(dbUrl);
     mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
